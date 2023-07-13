@@ -1,0 +1,124 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.index-header{
+    background: url(https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc00e3a4217f7862153ae2_portfolio%202%20-%20wide.svg) center/cover;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.intro-header-h2{
+    margin-bottom: 10px;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.4;
+    padding: 20px 0;
+}
+.intro-header-button{
+    background-color: white;
+    color: #222;
+    padding: 16px 35px;
+    border: 0px;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    line-height: 26px;
+    transition: 1s;
+}
+.intro-header-button:hover{
+    opacity: 0.6;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px 40px;
+}
+.w-33{
+    width: 33%;
+}
+.w-66{
+    width: 66%;
+}
+.section-img{
+    max-width: 100%;
+    height: 100%;
+}
+.section-inline{
+    margin: auto;
+    margin-right: 60px;
+}
+.section-button{
+    background-color: #222;
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: 0px;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    line-height: 26px;
+    transition: 1s;
+}
+.section-text{
+    color: #222;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding: 10px 0;
+    opacity: 0.7;
+}
+.section-button a{
+    color: #fff;
+}
+.section-button:hover{
+    opacity: 0.8;
+}
+.about-list{
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about{
+    width: 33%;
+    padding: 0 45px 30px 15px;
+}
+@media (max-width : 991px) {
+    .w-66{
+        width: 100%;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .section-inline{
+        width: 100%;
+        text-align: center;
+    }
+    .section-img{
+        padding-top: 40px;
+    }
+    .about-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width : 768px) {
+    .index-header{
+        height: 560px;
+    }
+}

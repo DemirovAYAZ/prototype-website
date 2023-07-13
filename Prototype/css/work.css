@@ -1,0 +1,15 @@
+.project-img{
+    max-width: 100%;
+    transition: 0.7s;
+    margin: 40px 0;
+    display: flex;
+}
+.project-h4{
+    padding-bottom: 60px;
+}
+.project-img:hover{
+    opacity: 0.8;
+}
+.projects{
+    text-align: center;
+}
